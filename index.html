@@ -2,66 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
+    <title>Ahmad El Idrissi Amiri - Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="cv.css">
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
+
+<header class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <img src="your-profile-picture.jpg" alt="Ahmad El Idrissi Amiri" class="img-fluid rounded-circle" style="width: 150px;">
+        <h1 class="mt-3">Ahmad El Idrissi Amiri</h1>
         <p>Web Developer</p>
-    </header>
+    </div>
+</header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
-    </section>
-
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <article>
-            <h3>Job Title</h3>
-            <p>Company Name - Location</p>
-            <p>Date Range</p>
-            <ul>
-                <li>Responsibility/Accomplishment 1</li>
-                <li>Responsibility/Accomplishment 2</li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#technicalKnowledge">Technical Knowledge</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
             </ul>
-        </article>
+        </div>
+    </div>
+</nav>
 
-        <!-- Repeat the above article structure for each job experience -->
-    </section>
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Contact Information</h2>
+        <p>Email: <a href="mailto:elidrissiamiri.a@northeastern.edu">elidrissiamiri.a@northeastern.edu</a></p>
+        <p>Phone: (781) 521 – 2672</p>
+        <p>Location: Boston, MA</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmad-el-idrissi-amiri/" target="_blank">Ahmad El Idrissi Amiri</a></p>
+        <p>Available: April 2024 – Jan 2023</p>
+        <p>GitHub: <a href="https://github.com/AhmadElIdrissiAmiri" target="_blank">AhmadElIdrissiAmiri</a></p>
+    </div>
+</section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <article>
-            <h3>Degree Earned</h3>
-            <p>University Name - Location</p>
-            <p>Date of Graduation</p>
-        </article>
+<section id="education" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Education</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Northeastern University – Boston Campus, Boston, MA</h4>
+                <p>MS in Computer Science Candidate, GPA: 3.73 / 4.00</p>
+                <p>Expected Graduation: Dec 2024</p>
+                <p>Relevant Coursework: Computer Systems, Algorithms, Object-Oriented Design, Discrete Structures, Database Management Systems, Web Development, Foundations of Artificial Intelligence, Fundamentals of Cloud computing.</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Northeastern University – Boston Campus, Boston, MA</h4>
+                <p>BS in Biotechnology, GPA: 3.80 / 4.00</p>
+                <p>Sep 2020 – May 2022</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Bunker Hill Community College – Boston Campus, Boston, MA</h4>
+                <p>AS in Biomedical Engineering, GPA: 3.82 / 4.00</p>
+                <p>Sep 2018 – May 2020</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <!-- Repeat the above article structure for each educational experience -->
-    </section>
+<section id="technicalKnowledge" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Technical Knowledge</h2>
+        <p>Languages: Python, Java, C, C++, JavaScript, SQL, HTML5, CSS3</p>
+        <p>Tools & Frameworks: Linux, Git, React, Node.js, Express.js, Redux, Axios, Bootstrap, RESTful API, Junit, jQuery, Flask.</p>
+        <p>Databases: MySQL, SQL Server, NoSQL (MongoDB)</p>
+    </div>
+</section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Projects</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Personal Finance Tracker (Using Flask, MySQL)</h4>
+                <p>Sep 2023 – Dec 2023</p>
+                <p>Developed a Personal Finance Tracker web application aiming to empower users to manage their financial portfolios efficiently.</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Tune Heartbeat (Using React, MongoDB, Spotify API)</h4>
+                <p>Sep 2023 – Dec 2023</p>
+                <p>Developed TuneHeartBeats, a music app with Spotify integration.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Shapes Photo Album (Using Java Swing)</h4>
+                <p>Sep 2022 – Dec 2022</p>
+                <p>Developed a customized Java photo album application, applying the Model-View-Controller (MVC) architecture.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <p>Email: your.email@example.com</p>
-        <p>LinkedIn: linkedin.com/in/yourprofile</p>
-        <p>GitHub: github.com/yourusername</p>
-    </section>
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Experience</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Northeastern University – Boston Campus</h4>
+                <p>Graduate Teaching Assistant</p>
+                <p>Khoury College of Computer Sciences</p>
+                <p>Summer 2023</p>
+                <p>Managed course assignments and grading for CS 5008 MSCS-Align.</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Bunker Hill Community College</h4>
+                <p>Math and Statistics Teaching Assistant</p>
+                <p>ACE Mentor Program Boston, MA</p>
+                <p>Spring 2019</p>
+                <p>Managed daily attendance and collaborated with the teacher to plan and implement lessons.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Bunker Hill Community College</h4>
+                <p>Learning Disabilities Tutor and Note Taker</p>
+                <p>Students with Disabilities Office Boston, MA</p>
+                <p>Spring 2019/Fall 2019</p>
+                <p>Conducted tutorial services for students with disabilities in various subjects.</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Jabal Tarek High School, Tangier Morocco</h4>
+                <p>French Tutor</p>
+                <p>Fall 2017/Spring 2018</p>
+                <p>Integrated French lessons into real-life scenarios and role-playing.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p>&copy; 2024 Ahmad El Idrissi Amiri. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="cv.js"></script>
 </body>
 </html>
