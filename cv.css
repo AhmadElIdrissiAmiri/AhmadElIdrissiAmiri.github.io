@@ -42,7 +42,7 @@ h2 {
     background-color: #f6f6f6 !important;
 }
 .bg-primary{
-    background-image: url('../assets/redbackground.jpg');
+    background-image: url('./assets/redbackground.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
