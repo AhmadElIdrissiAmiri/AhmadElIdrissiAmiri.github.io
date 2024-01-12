@@ -22,7 +22,7 @@ header img {
 }
 .nav-link:hover {
     text-decoration: underline;
-    color: #0056b3;
+    color: black;
 }
 
 .navbar-toggler-icon {
@@ -41,9 +41,22 @@ h2 {
 .bg-light {
     background-color: #f6f6f6 !important;
 }
+.bg-primary{
+    background-image: url('./assets/redbackground.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 
+}
+.bg-primary p {
+    color: black;
+}
+.bg-primary h1 {
+    color: black;
+}
 .bg-dark {
-    background-color: #343a40 !important;
+    background-color: #555 !important;
     color: #fff;
 }
 
